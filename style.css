@@ -1,0 +1,47 @@
+.logo {
+   width: 30vw;
+   height: 65px;
+}
+
+.links {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.link {
+color: #666666;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    border-bottom: solid .5px rgb(228, 228, 228);
+}
+.main-container {
+    display: flex;
+}
+
+.right-section {
+    width: 50vw;
+    background-color: #336699;
+}
+
+.left-section {
+    width: 50vw;
+    
+}
+.gras {
+    font-weight: bold;
+}
+
+.left-img {
+    width: 50vw;
+   
+}
