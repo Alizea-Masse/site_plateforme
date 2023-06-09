@@ -17,7 +17,7 @@
 .titre {
     color: rgb(8, 8, 8);
     /* background-color: cornflowerblue; */
-    font-size: xx-large;
+    font-size: 400%;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -26,9 +26,8 @@ section {
     justify-content: center;
     border: solid 2px black;
     background-color: antiquewhite;
-    width: 100vw;
-    height: 70vh;
-    /* margin: 0 auto; */
+    width: 120vw;
+    height: 100vh;
     
 }
 
@@ -38,8 +37,9 @@ section {
     /* border: solid 2px rgb(88, 15, 15); */
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    width: 20%;
-    height: 80%;
+    width: 25%;
+    height: 90%;
+    /* block-size: auto; */
     padding: 20px;
     box-sizing: border-box;
     flex-direction: column;
@@ -52,20 +52,22 @@ section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
-    height: 600px;
+    width: 110vw;
+    height: 650px;
     
 }
 .sous-section:nth-child(0) {
     align-self: center;
 }
 .sous-titre {
+    font-size: x-large;
     color: rgb(50, 22, 143); 
-    /* line-height:  2.5; */
+    line-height:  2.5;
     /* padding: 7px; */
     /* padding-top: 10px; */
     /* padding-bottom: 10px; */
     font-family: 'Roboto Mono', monospace;
+
 }
 
 .header-image{
@@ -73,11 +75,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* margin-block: 10%; */
 }
 
 .img {
-    width: 45px;
-    height: 45px;
+    width: 100px;
+    height: 100px;
     /* margin: 0 auto; */
     /* margin-bottom: 7%; */
     /* padding: 5px; */
@@ -98,8 +101,6 @@ section {
     border-radius: 25px ;
     background-color: coral;
     border: none;
-    /* padding: 20px; */
-    /* width: 200px; */
     height: 70px;
     cursor: pointer;
 
@@ -119,4 +120,9 @@ section {
 .lien{
     text-decoration: none;
     color: black;
+}
+
+.fa-solid fa-user{
+    size: 5cm;
+    
 }
