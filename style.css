@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 .logo {
    width: 30vw;
    height: 65px;
@@ -7,9 +11,9 @@
     display: flex;
     width: 60vw;
     justify-content: space-between;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 
 .link {
@@ -26,11 +30,16 @@ color: #666666;
 }
 .main-container {
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .right-section {
+    display: flex;
+    flex-direction: column;
     width: 50vw;
     background-color: #336699;
+    align-items: center;
+    justify-content: center;
 }
 
 .left-section {
@@ -44,4 +53,49 @@ color: #666666;
 .left-img {
     width: 50vw;
    
+}
+
+.first-section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    height: 60vh;
+}
+
+
+.first-section-p {
+    font-size: 1.5em;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+
+}
+
+.second-section-p {
+    font-size: .8em;
+    text-align: center;
+}
+
+.second-section-first-p {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.second-section-button {
+    background-color: #ff2063;
+    padding: 10px;
+    width: 25vw;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: .9em;
+    border-radius: 5px;
 }
