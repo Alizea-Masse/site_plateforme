@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.rectangle {
+   
+    background-color: rgb(217, 243, 243);
+    display: flex;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin: 3%;
+
+
+    
+
+}
+
+.h2{
+    padding: 1%;
+    font-weight: 500;
+    font-size: 20px;
+    color: #336699!important;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif !important;
+
+}
+
+.h1{
+    color: #336699!important;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif !important;
+    text-align: center;
+    margin: 7%;
+    
+}
+
+.rectangle2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 10%;
+    background-color: rgb(244, 185, 38);
+    text-align: center;
+    padding: 2%;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff!important;
+    border-width: 10px!important;
+    border-color: #ffca4b;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    padding-right: 2em;
+    padding-left: 2em;
+    border: 2px solid;
+    font-family: Open Sans,Arial,sans-serif;
+
+}
+.fa-solid fa-caret-right{
+    padding: 2%;
+}
+
+.imgrec {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 50%;
+    
+}
+
+.text-rec {
+    display: flex;
+    flex-direction: column;
+}
+
+.Paragraphe {
+padding: 1%;
+font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+color: #336699!important;
+font-weight: 500;
+line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
